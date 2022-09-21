@@ -1,7 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
 }
 
 header{
@@ -52,7 +54,7 @@ a{
 
 
 .first-row{
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .col{
@@ -62,6 +64,10 @@ a{
 
 .item{
     position: relative;
+}
+
+.item:hover{
+    box-shadow: 5px 5px 5px 5px rgba(255, 105, 0, 0.5);
 }
 
 .item img{
@@ -75,7 +81,7 @@ a{
 
 .label{
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
 }
 
 .discount,
@@ -97,24 +103,38 @@ a{
 
 .heart {
     position: absolute;
-    top: 1%;
-    right: 2%;
-    font-size: 2rem;
+    top: 2%;
+    right: 5%;
+    font-size: 3rem;
 }
 
 .heart:hover {
     color: red;
 }
 
-
+/* images' changing */
 .item-image-hover {
     display: none;
 }
 
-.item:hover .item-image-hover {
-    display: inline-block;
-}
-
 .item:hover .item-image {
     display: none;
+}
+
+/* footer */
+footer{
+    background-color: #1A1A1A;
+    color: white;
+    padding: 20px 0;
+}
+
+header,
+.item,
+footer{
+    box-shadow: 5px;
+}
+
+/* my bonus hidden shadow */
+.item:hover .item-image-hover {
+    display: inline-block;
 }
