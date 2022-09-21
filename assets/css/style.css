@@ -7,6 +7,10 @@
 header{
     background-color: #FF6900;
     padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .flex{
@@ -46,8 +50,9 @@ a{
 
 /* main's CSS */
 
-.row{
 
+.first-row{
+    margin-top: 70px;
 }
 
 .col{
