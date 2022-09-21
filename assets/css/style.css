@@ -51,6 +51,7 @@ a{
 
 .col{
     flex-basis: calc(100% / 3);
+    padding: 1%;
 }
 
 .item{
