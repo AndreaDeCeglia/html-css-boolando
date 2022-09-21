@@ -1,18 +1,9 @@
-
+/* my default settings */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Prompt', sans-serif;
-}
-
-header{
-    background-color: #FF6900;
-    padding: 10px 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
 }
 
 .flex{
@@ -27,6 +18,16 @@ header{
     width: 80%;
     margin: auto;
     align-items: center;
+}
+
+/* header CSS */
+header{
+    background-color: #FF6900;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .flex li{
@@ -52,9 +53,8 @@ a{
 
 /* main's CSS */
 
-
-.first-row{
-    margin-top: 90px;
+main{
+    padding-top: 90px;
 }
 
 .col{
@@ -66,8 +66,8 @@ a{
     position: relative;
 }
 
-.item:hover{
-    box-shadow: 5px 5px 5px 5px rgba(255, 105, 0, 0.5);
+.item:hover .item-image-hover {
+    display: inline-block;
 }
 
 .item img{
@@ -135,6 +135,6 @@ footer{
 }
 
 /* my bonus hidden shadow */
-.item:hover .item-image-hover {
-    display: inline-block;
+.item:hover{
+    box-shadow: 5px 5px 5px 5px rgba(255, 105, 0, 0.8);
 }
